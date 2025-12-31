@@ -2,6 +2,8 @@
 import { Section } from './ui/Section'
 import { Badge } from './ui/Badge'
 import { Card } from './ui/Card'
+import { Palette } from 'lucide-react'
+
 import {
   
   Server,
@@ -40,6 +42,12 @@ export const Skills = () => {
       icon: <Terminal className="text-purple-400" />,
       skills: ['Git', 'VS Code', 'Postman', 'Figma', 'Responsive Design'],
     },
+    {
+      title: 'Design',
+      icon: <Palette className="text-pink-400" />,
+      skills: ['Figma', 'Photoshop', 'Canva', 'Affinity'],
+    },
+
   ]
   return (
     <Section
@@ -86,9 +94,9 @@ export const Skills = () => {
           </div>
         </div>
         <div className="flex gap-3">
-          <Badge variant="accent">Next.js</Badge>
+          <Badge variant="accent">Laravel</Badge>
           <Badge variant="accent">UI Systems</Badge>
-          <Badge variant="accent">CI/CD</Badge>
+          <Badge variant="accent">Wordpress</Badge>
         </div>
       </div>
     </Section>

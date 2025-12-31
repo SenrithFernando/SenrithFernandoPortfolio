@@ -52,6 +52,7 @@ export const Experience = () => {
               </li>
             </ul>
           </Card>
+          
         </div>
       </div>
     </Section>
