@@ -179,7 +179,7 @@ export const DesignCorner = () => {
         {selectedItem && (
           <div className="space-y-6">
             <div className="relative">
-              <div className="relative w-full h-96 rounded-xl overflow-hidden bg-slate-800 border border-slate-700">
+              <div className="relative w-full h-98 rounded-xl overflow-hidden bg-slate-800 border border-slate-700">
                 <AnimatePresence mode="wait">
                   <motion.img
                     key={currentImageIndex}
