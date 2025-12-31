@@ -4,7 +4,7 @@ import { Card } from "./ui/Card";
 import { Badge } from "./ui/Badge";
 import { Button } from "./ui/Button";
 import { Modal } from "./ui/Modal";
-import { Eye, Layout, ChevronLeft, ChevronRight, Palette } from "lucide-react";
+import { Eye, ChevronLeft, ChevronRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import type { ReactNode } from "react";
 
