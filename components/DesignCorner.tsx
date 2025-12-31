@@ -1,4 +1,4 @@
-import React, { useState, Component } from 'react'
+import React, { useState } from 'react'
 import { Section } from './ui/Section'
 import { Card } from './ui/Card'
 import { Badge } from './ui/Badge'

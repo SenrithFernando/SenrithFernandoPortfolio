@@ -1,12 +1,12 @@
-import React from 'react'
+
 import { Section } from './ui/Section'
 import { Badge } from './ui/Badge'
 import { Card } from './ui/Card'
 import {
-  Code,
+  
   Server,
   Database,
-  Layers,
+  
   LayoutTemplate,
   Terminal,
   Cpu,

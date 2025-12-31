@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Section } from './ui/Section'
 import { Card } from './ui/Card'
 import { CheckCircle2, Code2, Database, Layout } from 'lucide-react'
