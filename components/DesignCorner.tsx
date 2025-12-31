@@ -53,7 +53,7 @@ const designItems: DesignItem[] = [
     fullDescription:
       "A modern recruitment poster concept that breaks away from traditional corporate styles. Utilizes negative space and bold typography to attract attention while maintaining professional clarity.",
     tags: ["Poster", "Layout", "Branding"],
-    cover: ['https://i.ibb.co/hFx5X5W9/2.png'],
+    cover: 'https://i.ibb.co/hFx5X5W9/2.png',
     softBg: "bg-orange-500/10",
     hoverSoftBg: "group-hover:bg-orange-500/20",
     images: [
@@ -74,7 +74,7 @@ const designItems: DesignItem[] = [
     fullDescription:
       "Exploration of modern Package design for Dayya Spices Company",
     tags: ["Graphic Design", "Package design", "Modern"],
-    cover: ['https://i.ibb.co/0jMKpx2h/dyya2.png'],
+    cover: 'https://i.ibb.co/0jMKpx2h/dyya2.png',
     softBg: "bg-blue-500/10",
     hoverSoftBg: "group-hover:bg-blue-500/20",
     images: [

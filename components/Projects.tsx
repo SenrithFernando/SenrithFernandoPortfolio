@@ -134,7 +134,7 @@ export const Projects = () => {
                   size="sm"
                   className="flex-1"
                   href={project.links.repo}
-                  target="_blank" rel="noopener noreferrer"
+                  external
                 >
                   <Github size={16} className="mr-2" />
                   Code
@@ -144,7 +144,7 @@ export const Projects = () => {
                   size="sm"
                   className="flex-1"
                   href={project.links.live}
-                  target="_blank" rel="noopener noreferrer"
+                  external
                 >
                   <ExternalLink size={16} className="mr-2" />
                   Live Demo

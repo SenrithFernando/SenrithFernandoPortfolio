@@ -131,11 +131,11 @@ export const Contact = () => {
           </div>
 
           <div className="flex gap-4 pt-4">
-            <Button variant="secondary" size="sm" href="https://github.com/SenrithFernando" target="_blank" rel="noopener noreferrer">
+            <Button variant="secondary" size="sm" href="https://github.com/SenrithFernando" external>
               <Github size={18} className="mr-2" />
               GitHub
             </Button>
-            <Button variant="secondary" size="sm" href="https://www.linkedin.com/in/senrith-fernando-176559234/" target="_blank" rel="noopener noreferrer">
+            <Button variant="secondary" size="sm" href="https://www.linkedin.com/in/senrith-fernando-176559234/" external>
               <Linkedin size={18} className="mr-2" />
               LinkedIn
             </Button>
