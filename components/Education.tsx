@@ -64,7 +64,24 @@ export const Education = () => {
               </div>
             </div>
           </div>
+          <div className="grid sm:grid-cols-2 gap-4 pt-2">
+            <div className="flex items-center gap-3 p-3 rounded-lg bg-slate-800/50">
+              <div className="w-2 h-2 rounded-full bg-purple-500" />
+              <div>
+                <p className="text-white font-medium">Advanced Level in Science Stream – (2020)</p>
+                <p className="text-slate-400 text-xs">Richmond College Galle</p>
+              </div>
+            </div>
+            <div className="flex items-center gap-3 p-3 rounded-lg bg-slate-800/50">
+              <div className="w-2 h-2 rounded-full bg-pink-500" />
+              <div>
+                <p className="text-white font-medium">Advanced Level in Technology Stream – (2021)</p>
+                <p className="text-slate-400 text-xs">Private - 5886414</p>
+              </div>
+            </div>
+          </div>
         </Card>
+        
       </div>
     </Section>
   )

@@ -5,6 +5,32 @@ import { Badge } from './ui/Badge'
 import { Button } from './ui/Button'
 import { ExternalLink, Github, Calendar } from 'lucide-react'
 const projects = [
+    {
+    title: 'Yogashram Horana',
+    date: 'Nov 2025 – Dec 2025',
+    description:
+      'Frontend: React + TypeScript, Vite (dev/build). Styling: Tailwind CSS + PostCSS. UX: framer-motion for animations, lucide-react icons, custom SVG illustrations. Integrations: EmailJS for contact emails, Google reCAPTCHA v3 for spam protection. Hosting: Vercel.',
+    tags: ['Tailwind CSS', 'React', 'Node.js', 'MongoDB'],
+    image:
+      'https://i.ibb.co/PZCwVrNs/yogashram.jpg',
+    links: {
+      live: 'https://yogashram.vercel.app',
+      repo: '',
+    },
+  },
+    {
+    title: 'SFernando Solution -  Academic Outsourcing Platform',
+    date: 'Jul 2025 – Aug 2025',
+    description:
+      'The frontend of the SFernando Solution website is developed using React.js for building dynamic and reusable components. Tailwind CSS is used as the primary styling framework, enabling fast and responsive UI design with utility-first classes. The structure of the site is built on HTML5, while CSS3 enhances visual styling and transitions. JavaScript (ES6+) is used to implement interactivity and modern frontend logic, ensuring a smooth user experience across all devices.',
+    tags: ['Tailwind CSS', 'React', 'Node.js', 'MongoDB'],
+    image:
+      'https://i.ibb.co/PGwC60TY/SFerando.png',
+    links: {
+      live: 'https://s-fernando-solutions.vercel.app',
+      repo: '',
+    },
+  },
   {
     title: 'TUK – Task Management System',
     date: 'Jun 2025 – Jul 2025',
@@ -12,10 +38,10 @@ const projects = [
       'A comprehensive task management dashboard with role-based access control. Features include priority handling, deadline tracking, and team collaboration tools.',
     tags: ['MERN', 'React', 'Node.js', 'MongoDB'],
     image:
-      'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=800&h=500',
+      'https://i.ibb.co/tpS6FTSM/TUK.jpg',
     links: {
-      live: '#',
-      repo: '#',
+      live: '',
+      repo: '',
     },
   },
   {
@@ -25,10 +51,10 @@ const projects = [
       'Digital platform connecting caregivers with patients. Includes appointment scheduling, profile management, and administrative tools for service oversight.',
     tags: ['MERN', 'Express', 'Redux', 'Tailwind'],
     image:
-      'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800&h=500',
+      'https://i.ibb.co/pB4h0K86/carememok.jpg',
     links: {
-      live: '#',
-      repo: '#',
+      live: 'https://care-me-rho.vercel.app',
+      repo: '',
     },
   },
   {
@@ -38,10 +64,10 @@ const projects = [
       'Full-scale telemedicine application facilitating remote consultations, digital prescriptions, and emergency service locators.',
     tags: ['MERN', 'Socket.io', 'JWT', 'Stripe'],
     image:
-      'https://images.unsplash.com/photo-1576091160550-2187d80a18f7?auto=format&fit=crop&q=80&w=800&h=500',
+      'https://i.ibb.co/gbgY03sJ/medilifemok.jpg',
     links: {
-      live: '#',
-      repo: '#',
+      live: '',
+      repo: '',
     },
   },
   {
@@ -53,8 +79,8 @@ const projects = [
     image:
       'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80&w=800&h=500',
     links: {
-      live: '#',
-      repo: '#',
+      live: '',
+      repo: '',
     },
   },
 ]
@@ -108,6 +134,7 @@ export const Projects = () => {
                   size="sm"
                   className="flex-1"
                   href={project.links.repo}
+                  target="_blank" rel="noopener noreferrer"
                 >
                   <Github size={16} className="mr-2" />
                   Code
@@ -117,6 +144,7 @@ export const Projects = () => {
                   size="sm"
                   className="flex-1"
                   href={project.links.live}
+                  target="_blank" rel="noopener noreferrer"
                 >
                   <ExternalLink size={16} className="mr-2" />
                   Live Demo

@@ -6,7 +6,7 @@ export const Footer = () => {
         <div className="text-center md:text-left">
           <p className="text-slate-400 mb-2">© 2026 Senrith Fernando</p>
           <p className="text-slate-600 text-sm">
-            Built with clarity, curiosity, and clean code.
+            All rights reserved.
           </p>
         </div>
 

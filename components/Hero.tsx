@@ -108,14 +108,14 @@ export const Hero = () => {
             className="flex items-center gap-6 pt-8 border-t border-slate-800/50 mt-8"
           >
             <a
-              href="#"
-              className="text-slate-400 hover:text-white transition-colors hover:scale-110 transform duration-200"
+              href="https://github.com/SenrithFernando"
+              className="text-slate-400 hover:text-white transition-colors hover:scale-110 transform duration-200" target="_blank" rel="noopener noreferrer"
             >
               <Github size={24} />
             </a>
             <a
-              href="#"
-              className="text-slate-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200"
+              href="https://www.linkedin.com/in/senrith-fernando-176559234/"
+              className="text-slate-400 hover:text-blue-400 transition-colors hover:scale-110 transform duration-200" target="_blank" rel="noopener noreferrer"
             >
               <Linkedin size={24} />
             </a>
