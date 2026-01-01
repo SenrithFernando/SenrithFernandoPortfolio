@@ -54,7 +54,7 @@ const projects = [
       'https://i.ibb.co/pB4h0K86/carememok.jpg',
     links: {
       live: 'https://care-me-rho.vercel.app',
-      repo: '',
+      repo: 'https://youtu.be/RFFNL17pXF0?si=4PooxL27LM96482g',
     },
   },
   {
