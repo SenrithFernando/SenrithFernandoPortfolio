@@ -65,7 +65,7 @@ export const Hero = () => {
             variants={itemVariants}
             className="text-5xl md:text-7xl font-bold text-white tracking-tight leading-[1.1]"
           >
-            Intern Software <br />
+            Software <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-500">
               Developer
             </span>
@@ -169,7 +169,7 @@ export const Hero = () => {
                 <span className="text-slate-600 w-8">3</span>
                 <span className="pl-4 text-slate-300">role:</span>{' '}
                 <span className="text-green-400">
-                  'Intern Software Developer'
+                  'Software Developer'
                 </span>
                 ,
               </div>
