@@ -30,7 +30,7 @@ const designItems: DesignItem[] = [
     id: 1,
     title: "Yogashram Horana Flyer Series",
     description:
-      "Educational flyers for desk workers (chair yoga) and mindful wellness posts.",
+      "Educational flyers and Mindful Wellness posts.",
     fullDescription:
       "A series of minimal, typography-driven flyers designed to promote wellness in the workplace. The design focuses on calming colors, clear hierarchy, and accessible instructions for chair yoga exercises.",
     tags: ["Flyer Design", "Minimal", "Typography"],
@@ -41,7 +41,7 @@ const designItems: DesignItem[] = [
       "https://i.ibb.co/tpdQ085Z/1.png",
       "https://i.ibb.co/21hwvFhX/3.png",
       "https://i.ibb.co/8FfwVnQ/4.png",
-      "https://i.ibb.co/TqKb2Zg3/Blue-and-Yellow-Modern-Best-Employee-Instagram-Post.png",
+      "https://i.ibb.co/zTgHhXjJ/Screenshot-2026-05-18-at-4-33-00-PM.png",
       "https://i.ibb.co/hFBsX8Gs/2.png",
     ],
   },
