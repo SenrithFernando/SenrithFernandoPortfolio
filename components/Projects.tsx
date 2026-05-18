@@ -5,12 +5,25 @@ import { Badge } from './ui/Badge'
 import { Button } from './ui/Button'
 import { ExternalLink, Github, Calendar } from 'lucide-react'
 const projects = [
+  {
+    title: 'Easy Food – Food Ordering System and Table Reservation - Inter Campus Project',
+    date: 'Jan 2025 – April 2025',
+    description:
+      'Frontend: React (Vite) SPA configured with HashRouter for zero-configuration routing.| Backend API: Scalable Node.js + Express.js API utilizing modern ES Modules.| Database: MongoDB & Mongoose NoSQL ODM for quick document mapping of orders, users, and tables.| Key Features: Role-Based Workflows, Interactive Seating Map, Admin Insights, Community Board.',
+    tags: ['Tailwind CSS', 'React', 'Node.js', 'MongoDB'],
+    image:
+      'https://i.ibb.co/m53xtXFP/Screenshot-2026-05-18-at-3-35-08-PM.png',
+    links: {
+      live: '',
+      repo: '',
+    },
+  },
     {
     title: 'Yogashram Horana',
     date: 'Nov 2025 – Dec 2025',
     description:
       'Frontend: React + TypeScript, Vite (dev/build). Styling: Tailwind CSS + PostCSS. UX: framer-motion for animations, lucide-react icons, custom SVG illustrations. Integrations: EmailJS for contact emails, Google reCAPTCHA v3 for spam protection. Hosting: Vercel.',
-    tags: ['Tailwind CSS', 'React', 'Node.js', 'MongoDB'],
+    tags: ['Tailwind CSS', 'React', 'Node.js', 'Neon'],
     image:
       'https://i.ibb.co/PZCwVrNs/yogashram.jpg',
     links: {
@@ -157,3 +170,20 @@ export const Projects = () => {
     </Section>
   )
 }
+
+
+// Campus Food Ordering and Table Reservation System (Jan 2025 – April 2025)
+
+// A high-performance MERN Stack campus dining ecosystem designed to eliminate peak-hour wait times, streamline table reservations, and simplify vendor order management.
+
+// Frontend: React (Vite) SPA configured with HashRouter for zero-configuration routing.
+// Styling & Icons: Styled with Utility-First Tailwind CSS & PostCSS, using Lucide React icons for a clean, modern UI.
+// Visual Analytics: Fully integrated Recharts charts for system diagnostics, order category breakdowns, and revenue logging.
+// Animations: Fluid role transitions and menu drawers powered by framer-motion.
+// Backend API: Scalable Node.js + Express.js API utilizing modern ES Modules.
+// Database: MongoDB & Mongoose NoSQL ODM for quick document mapping of orders, users, and tables.
+// Key Features:
+// 👥 Role-Based Workflows: Custom dashboards tailored for Students, Food Vendors, and System Administrators.
+// 🪑 Interactive Seating Map: Custom visual table-booking grid with real-time occupancy indicators.
+// 📈 Admin Insights: Revenue logging, category breakdowns, and activity timelines.
+// 💬 Community Board: Interactive experience rating forms and university nutrition blogs.
