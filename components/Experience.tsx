@@ -205,6 +205,182 @@ export const Experience = () => {
               </li>
             </ul>
           </Card>
+
+           <Card className="p-6 md:p-8">
+            <div className="flex flex-col md:flex-row md:items-center justify-between mb-4 gap-2">
+              <div>
+                <h3 className="text-xl font-bold text-white">
+                  Social Media Manager & Graphic Designer at Yogashram.
+                </h3>
+                <p className="text-emerald-400 font-medium">
+                  Yogashram - Horana
+                </p>
+              </div>
+              <div className="flex items-center text-slate-400 text-sm bg-slate-800/50 px-3 py-1 rounded-full w-fit">
+                <Calendar size={14} className="mr-2" />
+                Dec 2025 – Present
+              </div>
+            </div>
+
+            <ul className="space-y-3 text-slate-300 list-disc list-outside ml-4">
+              <li>
+                Managed Yogashram’s social media platforms by planning, creating, and
+                publishing engaging content to promote services, events, and brand awareness.
+              </li>
+
+              <li>
+                Designed creative digital graphics including{' '}
+                <span className="text-white font-medium">social media posts</span>, flyers,
+                banners, advertisements, and promotional materials.
+              </li>
+
+              <li>
+                Developed content strategies to improve audience engagement, maintain a
+                consistent posting schedule, and strengthen Yogashram’s online presence.
+              </li>
+
+              <li>
+                Created visually consistent designs using proper layout, typography, color
+                combinations, and branding elements to match Yogashram’s identity.
+              </li>
+
+              <li>
+                Wrote captions, promotional messages, and content ideas suitable for
+                social media campaigns and event promotions.
+              </li>
+
+              <li>
+                Coordinated with the team to understand marketing requirements, prepare
+                creative concepts, and deliver high-quality designs on time.
+              </li>
+            </ul>
+          </Card>
+          
+        </div>
+        <div className="relative">
+          <span className="absolute -left-[41px] md:-left-[59px] top-0 flex h-10 w-10 items-center justify-center rounded-full bg-emerald-500 ring-8 ring-slate-950">
+            <Briefcase size={20} className="text-white" />
+          </span>
+
+          <Card className="p-6 md:p-8">
+            <div className="flex flex-col md:flex-row md:items-center justify-between mb-4 gap-2">
+              <div>
+                <h3 className="text-xl font-bold text-white">
+                  Intern Backend & UI/UX Developer
+                </h3>
+                <p className="text-emerald-400 font-medium">
+                  Gamage Recruiters (Pvt) Ltd
+                </p>
+              </div>
+              <div className="flex items-center text-slate-400 text-sm bg-slate-800/50 px-3 py-1 rounded-full w-fit">
+                <Calendar size={14} className="mr-2" />
+                Nov 2025 – May 2026
+              </div>
+            </div>
+
+            <ul className="space-y-3 text-slate-300 list-disc list-outside ml-4">
+              <li>
+                Developed and maintained backend functionalities using{' '}
+                <span className="text-white font-medium">Spring Boot</span>, focusing on
+                clean API structure and reliable system performance.
+              </li>
+
+              <li>
+                Designed and improved user interfaces using{' '}
+                <span className="text-white font-medium">Bootstrap</span>, ensuring
+                responsive layouts across desktop and mobile devices.
+              </li>
+
+              <li>
+                Created and enhanced UI/UX designs with attention to usability,
+                accessibility, visual consistency, and smooth user flow.
+              </li>
+
+              <li>
+                Worked on frontend-backend integration by connecting UI components with
+                backend services and resolving integration issues.
+              </li>
+
+              <li>
+                Optimized existing layouts, components, and legacy code to improve page
+                loading speed, responsiveness, and overall user experience.
+              </li>
+
+              <li>
+                Collaborated with senior developers and designers to identify bugs, improve
+                application features, and deliver client-focused web solutions.
+              </li>
+            </ul>
+          </Card>
+          
+        </div>
+
+         <div className="relative">
+          <span className="absolute -left-[41px] md:-left-[59px] top-0 flex h-10 w-10 items-center justify-center rounded-full bg-emerald-500 ring-8 ring-slate-950">
+            <Briefcase size={20} className="text-white" />
+          </span>
+
+          <Card className="p-6 md:p-8">
+            <div className="flex flex-col md:flex-row md:items-center justify-between mb-4 gap-2">
+              <div>
+                <h3 className="text-xl font-bold text-white">
+                  Graphic Designer & Director of Tukzi Advertizing and Branding Company.
+                </h3>
+                <p className="text-emerald-400 font-medium">
+                  Tukzi Advertizing and Branding Company
+                </p>
+              </div>
+              <div className="flex items-center text-slate-400 text-sm bg-slate-800/50 px-3 py-1 rounded-full w-fit">
+                <Calendar size={14} className="mr-2" />
+                Jan 2025 – Present
+              </div>
+            </div>
+
+            <ul className="space-y-3 text-slate-300 list-disc list-outside ml-4">
+              <li>
+                Designed professional branding materials including{' '}
+                <span className="text-white font-medium">logos</span>, flyers, banners,
+                business cards, social media posts, and promotional designs for clients.
+              </li>
+
+              <li>
+                Directed creative projects from concept to final delivery, ensuring each
+                design aligned with the client’s brand identity and marketing goals.
+              </li>
+
+              <li>
+                Managed client communication, gathered design requirements, and provided
+                creative solutions for advertising and branding campaigns.
+              </li>
+
+              <li>
+                Created visually engaging digital content for{' '}
+                <span className="text-white font-medium">social media marketing</span>,
+                helping businesses improve online presence and audience engagement.
+              </li>
+
+              <li>
+                Oversaw brand development, visual consistency, layout design, typography,
+                color selection, and overall creative direction across multiple projects.
+              </li>
+
+              <li>
+                Handled business operations, project planning, design approvals, and
+                delivery coordination as the director of the company.
+              </li>
+            </ul>
+          </Card>
+
+          
+        </div>
+
+        <div className="relative">
+          <span className="absolute -left-[41px] md:-left-[59px] top-0 flex h-10 w-10 items-center justify-center rounded-full bg-emerald-500 ring-8 ring-slate-950">
+            <Briefcase size={20} className="text-white" />
+          </span>
+
+          {/* 3 */}
+          
           
         </div>
       </div>
