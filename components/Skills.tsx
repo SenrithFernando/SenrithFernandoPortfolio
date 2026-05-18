@@ -35,7 +35,7 @@ export const Skills = () => {
     {
       title: 'Database',
       icon: <Database className="text-yellow-400" />,
-      skills: ['MySQL', 'SQL', 'MongoDB'],
+      skills: ['MySQL', 'SQL', 'MongoDB', 'NeonDB'],
     },
     {
       title: 'Tools & Others',
