@@ -5,6 +5,19 @@ import { Badge } from './ui/Badge'
 import { Button } from './ui/Button'
 import { ExternalLink, Github, Calendar } from 'lucide-react'
 const projects = [
+    {
+    title: 'ZEGO – Project Management Application',
+    date: 'April 2025 – May 2025',
+    description:
+      'ZEGO is a full-stack project management application designed to streamline team collaboration and task tracking. Built with a modern MERN stack, it features a responsive and intuitive user interface powered by React, TypeScript, and Tailwind CSS. The backend is implemented with Express and Prisma, leveraging PostgreSQL for robust data management.',
+    tags: ['Tailwind CSS', 'React', 'Node.js', 'NEON'],
+    image:
+      'https://i.ibb.co/8LgsRx3h/Screenshot-2026-05-21-at-11-08-19-PM.png',
+    links: {
+      live: 'https://zego-gamma.vercel.app',
+      repo: '',
+    },
+  },
   {
     title: 'Easy Food – Food Ordering System and Table Reservation - Inter Campus Project',
     date: 'Jan 2025 – April 2025',
@@ -172,18 +185,4 @@ export const Projects = () => {
 }
 
 
-// Campus Food Ordering and Table Reservation System (Jan 2025 – April 2025)
-
-// A high-performance MERN Stack campus dining ecosystem designed to eliminate peak-hour wait times, streamline table reservations, and simplify vendor order management.
-
-// Frontend: React (Vite) SPA configured with HashRouter for zero-configuration routing.
-// Styling & Icons: Styled with Utility-First Tailwind CSS & PostCSS, using Lucide React icons for a clean, modern UI.
-// Visual Analytics: Fully integrated Recharts charts for system diagnostics, order category breakdowns, and revenue logging.
-// Animations: Fluid role transitions and menu drawers powered by framer-motion.
-// Backend API: Scalable Node.js + Express.js API utilizing modern ES Modules.
-// Database: MongoDB & Mongoose NoSQL ODM for quick document mapping of orders, users, and tables.
-// Key Features:
-// 👥 Role-Based Workflows: Custom dashboards tailored for Students, Food Vendors, and System Administrators.
-// 🪑 Interactive Seating Map: Custom visual table-booking grid with real-time occupancy indicators.
-// 📈 Admin Insights: Revenue logging, category breakdowns, and activity timelines.
-// 💬 Community Board: Interactive experience rating forms and university nutrition blogs.
+ZEGO is a full-stack project management application designed to streamline team collaboration and task tracking. Built with a modern MERN stack, it features a responsive and intuitive user interface powered by React, TypeScript, and Tailwind CSS. The backend is implemented with Express and Prisma, leveraging PostgreSQL for robust data management.
