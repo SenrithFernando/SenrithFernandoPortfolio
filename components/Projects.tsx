@@ -183,6 +183,3 @@ export const Projects = () => {
     </Section>
   )
 }
-
-
-ZEGO is a full-stack project management application designed to streamline team collaboration and task tracking. Built with a modern MERN stack, it features a responsive and intuitive user interface powered by React, TypeScript, and Tailwind CSS. The backend is implemented with Express and Prisma, leveraging PostgreSQL for robust data management.
