@@ -72,6 +72,13 @@ export const Contact = () => {
     }
   }
 
+  const whatsappMessage =
+  "Hello Senrith Fernando, I am contacting you after referring to your portfolio.";
+
+  const whatsappLink = `https://wa.me/94704924482?text=${encodeURIComponent(
+  whatsappMessage
+)}`;
+
   return (
     <Section
       id="contact"
@@ -221,11 +228,29 @@ export const Contact = () => {
                 placeholder="Tell me about your project..."
               />
             </div>
-
+{/* 
             <Button
               type="submit"
               className="w-full"
               disabled={isSubmitting}
+            >
+              {isSubmitting ? (
+                <>
+                  <span className="animate-spin mr-2">⏳</span>
+                  Sending...
+                </>
+              ) : (
+                <>
+                  Send Message
+                  <Send size={18} className="ml-2" />
+                </>
+              )}
+            </Button> */}
+            <Button
+              type="button"
+              className="w-full"
+              disabled={isSubmitting}
+              onClick={() => window.open(whatsappLink, "_blank")}
             >
               {isSubmitting ? (
                 <>
