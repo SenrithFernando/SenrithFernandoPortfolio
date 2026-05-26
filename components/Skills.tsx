@@ -30,7 +30,7 @@ export const Skills = () => {
     {
       title: 'Backend',
       icon: <Server className="text-emerald-400" />,
-      skills: ['Node.js', 'PHP', 'REST APIs', 'Express'],
+      skills: ['Node.js', 'PHP', 'REST APIs', 'Express', 'Spring Boot'],
     },
     {
       title: 'Database',
@@ -40,7 +40,7 @@ export const Skills = () => {
     {
       title: 'Tools & Others',
       icon: <Terminal className="text-purple-400" />,
-      skills: ['Git', 'VS Code', 'Postman', 'Figma', 'Responsive Design'],
+      skills: ['Git', 'VS Code', 'Postman', 'Figma', 'Responsive Design', 'Branding', 'Social Media Management'],
     },
     {
       title: 'Design',
