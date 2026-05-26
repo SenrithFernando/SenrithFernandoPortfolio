@@ -7,7 +7,7 @@ import { ExternalLink, Github, Calendar } from 'lucide-react'
 const projects = [
   {
     title: 'Smart Campus Operations Hub',
-    date: 'February 2025 – April 2025',
+    date: 'February 2026 – April 2026',
     description:
       'Built a smart campus management system using Spring Boot and React to handle facility bookings, asset management, incident reporting, notifications, and secure role-based access for university operations.',
     tags: ['Tailwind CSS', 'React', 'Spring Boot', 'MONGODB'],
@@ -20,7 +20,7 @@ const projects = [
   },
       {
     title: 'Way Bridge System - Haylese Fiber Galle',
-    date: 'April 2025 – May 2025',
+    date: 'April 2026 – May 2026',
     description:
       'A custom-built weighbridge management system designed to streamline vehicle weight recording, material tracking, reporting, and operational monitoring for Hayleys Fibre, Galle.',
     tags: ['Tailwind CSS', 'React', 'Node.js', 'MONGODB'],
@@ -33,7 +33,7 @@ const projects = [
   },
     {
     title: 'ZEGO – Project Management Application',
-    date: 'April 2025 – May 2025',
+    date: 'April 2026 – May 2026',
     description:
       'ZEGO is a full-stack project management application designed to streamline team collaboration and task tracking. Built with a modern MERN stack, it features a responsive and intuitive user interface powered by React, TypeScript, and Tailwind CSS. The backend is implemented with Express and Prisma, leveraging PostgreSQL for robust data management.',
     tags: ['Tailwind CSS', 'React', 'Node.js', 'NEON'],
@@ -46,7 +46,7 @@ const projects = [
   },
   {
     title: 'Easy Food – Food Ordering System and Table Reservation - Inter Campus Project',
-    date: 'February 2025 – April 2025',
+    date: 'February 2026 – April 2026',
     description:
       'Frontend: React (Vite) SPA configured with HashRouter for zero-configuration routing.| Backend API: Scalable Node.js + Express.js API utilizing modern ES Modules.| Database: MongoDB & Mongoose NoSQL ODM for quick document mapping of orders, users, and tables.| Key Features: Role-Based Workflows, Interactive Seating Map, Admin Insights, Community Board.',
     tags: ['Tailwind CSS', 'React', 'Node.js', 'MongoDB'],
