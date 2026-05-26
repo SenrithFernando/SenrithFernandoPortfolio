@@ -75,7 +75,7 @@ export const Contact = () => {
   const whatsappMessage =
   "Hello Senrith Fernando, I am contacting you after referring to your portfolio.";
 
-  const whatsappLink = `https://wa.me/94704924482?text=${encodeURIComponent(
+  const whatsappLink = `https://wa.me/94779835388?text=${encodeURIComponent(
   whatsappMessage
 )}`;
 
