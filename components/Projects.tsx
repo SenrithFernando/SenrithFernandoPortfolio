@@ -5,6 +5,19 @@ import { Badge } from './ui/Badge'
 import { Button } from './ui/Button'
 import { ExternalLink, Github, Calendar } from 'lucide-react'
 const projects = [
+      {
+    title: 'Way Bridge System - Haylese Fiber Galle',
+    date: 'April 2025 – May 2025',
+    description:
+      'A custom-built weighbridge management system designed to streamline vehicle weight recording, material tracking, reporting, and operational monitoring for Hayleys Fibre, Galle.',
+    tags: ['Tailwind CSS', 'React', 'Node.js', 'MONGODB'],
+    image:
+      'https://i.ibb.co/G3BQV3bt/Screenshot-2026-05-26-at-10-13-40-AM.png',
+    links: {
+      live: '',
+      repo: '',
+    },
+  },
     {
     title: 'ZEGO – Project Management Application',
     date: 'April 2025 – May 2025',
