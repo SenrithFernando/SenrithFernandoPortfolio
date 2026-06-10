@@ -123,7 +123,7 @@ export const Experience = () => {
             <div className="flex flex-col md:flex-row md:items-center justify-between mb-4 gap-2">
               <div>
                 <h3 className="text-xl font-bold text-white">
-                  Graphic Designer & Director of Tukzi Advertizing and Branding Company.
+                  Director of Tukzi Advertizing and Branding Company & Graphic Designer 
                 </h3>
                 <p className="text-emerald-400 font-medium">
                   Tukzi Advertizing and Branding Company
