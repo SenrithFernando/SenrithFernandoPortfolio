@@ -72,8 +72,7 @@ export const Experience = () => {
               </div>
               <div className="flex items-center text-slate-400 text-sm bg-slate-800/50 px-3 py-1 rounded-full w-fit">
                 <Calendar size={14} className="mr-2" />
-                Nov 2025 – May 2026
-              </div>
+                Jan 2026 – July 2026 </div>
             </div>
 
             <ul className="space-y-3 text-slate-300 list-disc list-outside ml-4">
@@ -131,7 +130,7 @@ export const Experience = () => {
               </div>
               <div className="flex items-center text-slate-400 text-sm bg-slate-800/50 px-3 py-1 rounded-full w-fit">
                 <Calendar size={14} className="mr-2" />
-                Jan 2025 – Present
+                Jan 2026 – Present
               </div>
             </div>
 
@@ -191,7 +190,7 @@ export const Experience = () => {
               </div>
               <div className="flex items-center text-slate-400 text-sm bg-slate-800/50 px-3 py-1 rounded-full w-fit">
                 <Calendar size={14} className="mr-2" />
-                March 2025 – Present
+                March 2026 – May 2026
               </div>
             </div>
 
