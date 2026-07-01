@@ -58,7 +58,7 @@ export const Hero = () => {
           <motion.div variants={itemVariants} className="flex flex-wrap gap-3">
             <Badge variant="accent">BSc IT (SLIIT)</Badge>
             <Badge variant="outline">NVQ Level 4</Badge>
-            <Badge variant="outline">Intern Web Developer</Badge>
+            <Badge variant="outline">Software Engineer</Badge>
           </motion.div>
 
           <motion.h1
@@ -67,7 +67,7 @@ export const Hero = () => {
           >
             Software <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-500">
-              Developer
+              Engineer
             </span>
           </motion.h1>
 
